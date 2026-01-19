@@ -1,7 +1,7 @@
 # Simulated_Food_Delivery_Platform
 (Java GUI Development &amp; System Integration)
 
-Develop a Java application that simulates a food delivery ordering platform, implementing fundamental functions such as user ordering, merchant management, and order delivery. The system should feature an intuitive user interface and a positive user experience, ensure data security and integrity, and possess a certain level of fault tolerance to handle exceptional situations.
+Develop a Java application that simulates a food delivery ordering platform, implementing fundamental functions such as user ordering, merchant management, and order delivery. The system feature an intuitive user interface and a positive user experience, ensure data security and integrity, and possess a certain level of fault tolerance to handle exceptional situations.
 
 构建一个模拟外卖订餐平台的Java应用程序，实现用户下单、商家管理、订单配送等基础功能。系统具备良好的用户界面和用户体验，确保数据的安全性和完整性，具有一定的容错能力，能够处理异常情况。
 
