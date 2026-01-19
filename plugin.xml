@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="core.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="RCP Perspective"
+            class="core.Perspective"
+            id="WaiMaiDelivery.perspective">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="view.ViewMenuOne"
+            id="view.ViewMenuOne"
+            name="用户目录">
+      </view>
+      <view
+            class="view.ViewMenuTwo"
+            id="view.ViewMenuTwo"
+            name="商家目录">
+      </view>
+      <view
+            class="view.ViewYongHu"
+            id="view.ViewYongHu"
+            name="用户界面">
+      </view>
+      <view
+            class="view.ViewYongHu"
+            id="view.ViewYongHu"
+            name="用户界面">
+      </view>
+      <view
+            class="view.ViewOrders"
+            id="view.ViewOrders"
+            name="订单查看">
+      </view>
+      <view
+            class="view.ViewShangJia"
+            id="view.ViewShangJia"
+            name="商家界面">
+      </view>
+      <view
+            class="view.ViewPeiSong"
+            id="view.ViewPeiSong"
+            name="配送员界面">
+      </view>
+      <view
+            class="view.ViewAdmin"
+            id="view.ViewAdmin"
+            name="管理员界面">
+      </view>
+      <view
+            class="view.ViewRegister"
+            id="view.ViewRegister"
+            name="注册页面">
+      </view>
+   </extension>
+
+</plugin>
